@@ -1,0 +1,95 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+header{
+    height: 5vh;
+    background-color: rgb(44, 41, 41);
+    display: flex;
+    justify-content: start;
+}
+
+h3{
+    color: #606264;
+    margin-left: 5vw;
+}
+
+main{
+   margin-top: 10vh;
+}
+
+#title{
+    margin-right: 28.5vw;
+}
+
+#input_area{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.input_area{
+    height: 4vh;    
+}
+
+#task_input{
+    width: 30vw;
+    border: 1px solid #939598;
+    border-radius: 6px;
+    padding-left: 10px ;
+}
+
+button{
+    border: none;
+    background-color: steelblue;
+    border-radius: 6px;
+    width: 3vw;
+    margin-left: 1vw;
+    padding: 0;
+    font-size: 15px;
+    color: #f8f9fa;
+}
+
+#task_list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+    list-style: none;
+}
+
+li{
+    display: flex;  /* Enables flexbox */
+    align-items: center;  /* Centers items vertically */
+    justify-content: space-between; /* Pushes delete button to the end */
+    height: 6vh;
+    width: 40%;
+    border: 1px solid #939598;
+    border-radius: 4px;
+}
+
+li span {
+    flex-grow: 1;  
+    text-align: left;
+    margin-left: 10px;
+}
+
+.delete{
+    margin-right: 20px;
+}
+
+.task_checkbox{
+    margin-left: 1vw;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray; 
+}
