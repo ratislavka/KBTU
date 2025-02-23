@@ -1,0 +1,13 @@
+<div class="product-item">
+  <div class="product-images">
+    <img *ngFor="let image of product.images" [src]="image" alt="{{ product.name }}" />
+  </div>
+  <h3>{{ product.name }}</h3>
+  <p>{{ product.description }}</p>
+  <p>Rating: {{ product.rating }}</p>
+  <p>Likes: {{ product.likes }}</p>
+
+  <button (click)="onLike()">Like</button>
+  <button (click)="onRemove()">Remove</button>
+</div>
+
