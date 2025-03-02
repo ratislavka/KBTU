@@ -1,0 +1,156 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    color: #1c1e21;
+}
+
+main{
+    display: flex;
+    background-color: #f2f4f7;
+    padding: 8vw 0 10vw 0;
+}
+
+    p{
+        margin: 0;
+    }
+
+#logo{
+    justify-content: flex-start;
+    width: 21vw;
+    margin-left: 9vw;
+    margin-right: 16vw;
+}
+
+#slogan{
+    font-size: 28px;
+    width: 30vw;
+    margin-left: 11vw;
+    margin-right: 16vw;
+}
+
+#registration{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2vw;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 95%;
+    margin-bottom: 2.5vh;
+    height: 6vh;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding: 0 8px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+
+#registration_window{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+#forgot_password{
+    display: flex;
+    justify-content: center;
+    color: #2b7cfe;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#registration_hr{
+    color: #d7caca;
+    width: 400px;
+}
+
+.account_buttons{
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    font-weight: bold;
+    width: 400px;
+
+}
+
+#login_button{
+    color: white;
+    background-color: #2b7cfe;
+
+}
+
+#login_button:hover{
+    background-color: #2f6ed5;
+}
+
+#create_account{
+    color: white;
+    background-color: #42b72a;
+
+}
+
+#create_account:hover{
+    background-color: #26a633;
+}
+
+#create_page{
+    margin: 2vw;
+}
+
+#create_page_link{
+    font-weight: bold;
+    color: #1c1e21;
+}
+
+footer{
+    height: 20vh;
+    background-color: #fff;
+    color: #737373;
+    padding: 0 20vw;
+    margin-top: 5vh;
+    font-size: 12px;    
+}
+
+.options_footer{
+    color:#8a8d91;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 1vh;
+    
+}
+
+#also{
+    height: 8vh;
+    
+}
+
+.option_footer{
+    color:#8a8d91;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+
+footer hr{
+    color: #dddfe2;
+    margin: 1.5vh;
+}
+

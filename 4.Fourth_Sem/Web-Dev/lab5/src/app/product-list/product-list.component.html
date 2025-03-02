@@ -1,0 +1,8 @@
+<div class="product-list">
+  <app-product-item
+    *ngFor="let product of products"
+    [product]="product"
+    (like)="onLike(product)"
+    (remove)="remove.emit(product)"
+  ></app-product-item> <!-- Ensure proper closing -->
+</div>

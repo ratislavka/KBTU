@@ -1,0 +1,157 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: flex;
+    padding: 8vw 0 10vw 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#photo{
+    justify-content: start;
+    margin-left: 10vw;
+}
+
+#right_side{
+    justify-content: end;
+
+}
+
+#instagram_logo{
+    width: 300px;
+    margin-left: 10vw;
+    margin-bottom: 3vh;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 37%;
+    margin-bottom: 0.5vh;
+    height: 4vh;
+    border: 1px solid #b7babe;
+    border-radius: 3px;
+    padding: 0 8px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 11vw;
+}
+
+#login_button{
+    background-color: #2b7cfe;
+    border: none;
+    margin-top: 1vh;
+    width: 37%;
+    height: 3.5vh;
+    margin-right: 2.5vw;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#dont_have_account{
+    color: black
+    
+}
+
+#signup,
+#login_with_facebook{
+    color: #2b7cfe;
+    font-weight: bold;
+    margin-left: 13vw;
+}
+
+#signup{
+    margin-top: 10vh;
+
+}
+
+#forgot_password{
+    color: #205fc4;
+    margin-left: 13vw;
+
+}
+
+.down_img{
+    width: 7.5vw;
+}
+
+#get_app{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#get_app p{
+    font-size: 14px;
+}
+
+#download{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15.3vw;
+}
+
+#or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: -1vw;
+
+}
+
+#or::before,
+#or::after {
+    content: "";
+    width: 120px;
+    border-bottom: 1px solid #b7babe;
+    margin: 0 10px;
+
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: #b3b9bd; 
+}
+.footer_div{
+    display: flex;
+    justify-content: center;
+}
+select{
+    all: unset;
+
+    color: rgb(96, 99, 101);
+    font-size: 12px;
+    width: 6vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+}
+
+#meta_2025{
+    color: rgb(96, 99, 101);
+}
+
+.link_footer{
+    text-decoration: none;
+    padding: 1.2vh;
+    color: rgb(96, 99, 101);
+}
+
+.link_footer:hover{
+    text-decoration: underline;
+}
